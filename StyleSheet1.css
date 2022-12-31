@@ -45,3 +45,11 @@ body
 .align_L {text-align : left;}
 .align_R {text-align : right;}
 .align_C {text-align : center;}
+.innertitle
+{
+    background-color : rgba(255,255,249,1);/*背景色*/
+    line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-size: 1.5em;
+    font-weight : bold;/*粗体*/
+}
