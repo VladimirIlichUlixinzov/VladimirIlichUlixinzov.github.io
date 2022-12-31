@@ -7,7 +7,7 @@
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
-    font-size: 1.1em;
+    font-size: 1em;
 }
 body
 {
@@ -37,7 +37,7 @@ body
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .quotefrom
 {
@@ -46,7 +46,7 @@ body
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size: 1.1em;
+    font-size: 1em;
     text-align : right;/*右对齐*/
 }
 .align_L {text-align : left;}
@@ -68,5 +68,5 @@ body
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
-    font-size: 1.1em;
+    font-size: 1em;
 }
