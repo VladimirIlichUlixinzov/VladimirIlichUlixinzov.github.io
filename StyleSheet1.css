@@ -28,14 +28,10 @@ article div
     border-radius : 4px;/*圆角：4像素*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
-    font-size: 1em;
 }
 article div h1
 {   
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size : 2em;
@@ -44,7 +40,6 @@ article div h1
 article div h2
 {
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size : 1.6em;
@@ -53,7 +48,6 @@ article div h2
 article div h3
 {   
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.5em;
@@ -62,7 +56,6 @@ article div h3
 article div h4
 {
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.25em;
@@ -71,7 +64,6 @@ article div h4
 article div h5
 {
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.2em;
@@ -80,7 +72,6 @@ article div h5
 article div h6
 {
     text-align : center;/*居中*/
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1em;
@@ -89,7 +80,6 @@ article div h6
 .innertitle/*行内标题*/
 {
     text-align : center;
-    background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.5em;
@@ -99,31 +89,22 @@ article div h6
 article div q,blockquote
 {
     font-family : "Times New Roman","楷体","KaiTi"，italic;/*字体族*/
-    background-color : rgba(255,255,249,1);/*背景色*/
-    margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 40px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size: 1em;
 }
 
 article div p
 {
     text-align : left;
-    background-color : rgba(255,255,249,1);/*背景色*/
-    margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
-    font-size: 1em;
 }
 
 .text
 {
     text-align : left;
-    background-color : rgba(255,255,249,1);/*背景色*/
-    margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
-    font-size: 1em;
 }
