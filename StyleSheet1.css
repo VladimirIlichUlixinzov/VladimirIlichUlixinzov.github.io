@@ -121,7 +121,7 @@ article div h6
 
 article div q,blockquote
 {
-    font-family : "Times New Roman","楷体","KaiTi"，italic;/*字体族*/
+    font-family : "Times New Roman","KaiTi"，italic;/*字体族*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
 }
