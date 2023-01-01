@@ -3,6 +3,42 @@ body/*设置背景*/
     background-image : url("ogas.png");
     background-size: 100%;
 }
+@font-face 
+{
+   font-family: "SimSun";
+   src: "https://vladimirilichulixinzov.github.io/Fonts/simsun.fft";
+}
+@font-face
+{
+    font-family: "KaiTi"
+    src: "https://vladimirilichulixinzov.github.io/Fonts/kaiti.fft"
+    font-style: italic;
+}
+@font-face
+{
+    font-family: "Times New Roman";
+    src: "https://vladimirilichulixinzov.github.io/Fonts/times.fft";
+}
+@font-face
+{
+    font-family: "Times New Roman I";
+    src: "https://vladimirilichulixinzov.github.io/Fonts/timesi.fft";
+    font-style: italic;
+}
+@font-face
+{
+    font-family: "Times New Roman B";
+    src: "https://vladimirilichulixinzov.github.io/Fonts/timesbd.fft";
+    font-weight: bold;
+}
+@font-face
+{
+    font-family: "Times New Roman";
+    src: "https://vladimirilichulixinzov.github.io/Fonts/timesbi.fft";
+    font-weight: bold;
+    font-style: italic;
+}
+
 /*对齐方式*/
 .align_L {text-align : left;}
 .align_R {text-align : right;}
@@ -30,7 +66,7 @@ article div h1;
 {   
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size : 2em;
     font-weight : bold;/*粗体*/
 }
@@ -38,7 +74,7 @@ article div h2
 {
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size : 1.6em;
     font-weight : bold;/*粗体*/
 }
@@ -46,7 +82,7 @@ article div h3
 {   
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size: 1.5em;
     font-weight : bold;/*粗体*/
 }
@@ -54,7 +90,7 @@ article div h4
 {
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size: 1.25em;
     font-weight : bold;/*粗体*/
 }
@@ -62,7 +98,7 @@ article div h5
 {
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size: 1.2em;
     font-weight : bold;/*粗体*/
 }
@@ -70,7 +106,7 @@ article div h6
 {
     text-align : center;/*居中*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size: 1em;
     font-weight : bold;/*粗体*/
 }
@@ -78,7 +114,7 @@ article div h6
 {
     text-align : center;
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size: 1.5em;
     font-weight : bold;/*粗体*/
 }
@@ -94,14 +130,13 @@ article div p
 {
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size : 16px;
 }
-
 .text
 {
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","SimSun",serif;/*字体族*/
     font-size :1em;
 }
