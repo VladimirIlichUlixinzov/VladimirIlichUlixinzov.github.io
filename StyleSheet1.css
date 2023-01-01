@@ -1,68 +1,113 @@
-.Dft_block
+body/*设置背景*/
 {
+    background-image : url("ogas.png");
+    background-size: 100%;
+}
+/*对齐方式*/
+.align_L {text-align : left;}
+.align_R {text-align : right;}
+.align_C {text-align : center;}
+
+.Dft_block/*默认块样式*/
+{
+    text-align : left;
     background-color : rgba(255,255,249,1);/*背景色*/
     border : 3px solid red;/*边框：3像素 实线 红色*/
     border-radius : 4px;/*圆角：4像素*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1em;
 }
-body
-{
-    background-image : url("ogas.png");
-    background-size: 100%;
-}
-.title
-{   text-align : center;/*居中*/
+article h1
+{   
+    text-align : center;/*居中*/
     background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size : 2em;
     font-weight : bold;/*粗体*/
 }
-.subtitle
-{   text-align : center;/*居中*/
+article h2
+{
+    text-align : center;/*居中*/
     background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-size : 1.6em;
+    font-weight : bold;/*粗体*/
+}
+article h3
+{   
+    text-align : center;/*居中*/
+    background-color : rgba(255,255,249,1);/*背景色*/
+    line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.5em;
     font-weight : bold;/*粗体*/
 }
-.quote
+article h4
 {
-    font-family : "Times New Roman","楷体",italic;/*字体族*/
+    text-align : center;/*居中*/
     background-color : rgba(255,255,249,1);/*背景色*/
-    margin : 15px 30px 15px 30px;/*边外距*/
-    padding : 25px 10px 25px 10px;/*边内距*/
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size: 1em;
+    line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-size: 1.25em;
+    font-weight : bold;/*粗体*/
 }
-.quotefrom
+article h5
 {
-    font-family : "Times New Roman","楷体";/*字体族*/
+    text-align : center;/*居中*/
     background-color : rgba(255,255,249,1);/*背景色*/
-    margin : 15px 30px 15px 30px;/*边外距*/
-    padding : 25px 10px 25px 10px;/*边内距*/
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size: 1em;
-    text-align : right;/*右对齐*/
+    line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-size: 1.2em;
+    font-weight : bold;/*粗体*/
 }
-.align_L {text-align : left;}
-.align_R {text-align : right;}
-.align_C {text-align : center;}
-.innertitle
+article h6
+{
+    text-align : center;/*居中*/
+    background-color : rgba(255,255,249,1);/*背景色*/
+    line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
+    font-size: 1em;
+    font-weight : bold;/*粗体*/
+}
+.innertitle/*行内标题*/
 {
     text-align : center;
     background-color : rgba(255,255,249,1);/*背景色*/
     line-height : 1.15;/*行高*/
-    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
     font-size: 1.5em;
     font-weight : bold;/*粗体*/
 }
+
+article q,blockquote
+{
+    font-family : "Times New Roman","楷体","KaiTi"，italic;/*字体族*/
+    background-color : rgba(255,255,249,1);/*背景色*/
+    margin : 15px 30px 15px 30px;/*边外距*/
+    padding : 25px 10px 40px 10px;/*边内距*/
+    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
+    font-size: 1em;
+}
+
+article p
+{
+    text-align : left;
+    background-color : rgba(255,255,249,1);/*背景色*/
+    margin : 15px 30px 15px 30px;/*边外距*/
+    padding : 25px 10px 25px 10px;/*边内距*/
+    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
+    font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-size: 1em;
+}
+
 .text
 {
+    text-align : left;
     background-color : rgba(255,255,249,1);/*背景色*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
