@@ -16,7 +16,6 @@ body/*设置背景*/
     border-radius : 4px;/*圆角：4像素*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
-    font-family : "Times New Roman","宋体","SimSun",serif;/*字体族*/
 }
 article div
 {
@@ -96,6 +95,7 @@ article div p
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-size : 100%;
 }
 
 .text
@@ -103,4 +103,5 @@ article div p
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","宋体",serif;/*字体族*/
+    font-size :100%;
 }
