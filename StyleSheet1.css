@@ -6,35 +6,35 @@ body/*设置背景*/
 @font-face 
 {
    font-family: "SimSun";
-   src: "https://vladimirilichulixinzov.github.io/Fonts/simsun.fft";
+   src: url("Fonts/simsun.fft");
 }
 @font-face
 {
     font-family: "KaiTi"
-    src: "https://vladimirilichulixinzov.github.io/Fonts/kaiti.fft"
+    src: url("Fonts/kaiti.fft");
     font-style: italic;
 }
 @font-face
 {
     font-family: "Times New Roman";
-    src: "https://vladimirilichulixinzov.github.io/Fonts/times.fft";
+    src: url("Fonts/times.fft");
 }
 @font-face
 {
     font-family: "Times New Roman I";
-    src: "https://vladimirilichulixinzov.github.io/Fonts/timesi.fft";
+    src: url("Fonts/timesi.fft");
     font-style: italic;
 }
 @font-face
 {
     font-family: "Times New Roman B";
-    src: "https://vladimirilichulixinzov.github.io/Fonts/timesbd.fft";
+    src: url("Fonts/timesbd.fft");
     font-weight: bold;
 }
 @font-face
 {
-    font-family: "Times New Roman";
-    src: "https://vladimirilichulixinzov.github.io/Fonts/timesbi.fft";
+    font-family: "Times New Roman BI";
+    src: url("Fonts/timesbi.fft");
     font-weight: bold;
     font-style: italic;
 }
@@ -131,7 +131,7 @@ article div p
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-family : "Times New Roman","SimSun",serif;/*字体族*/
-    font-size : 16px;
+    font-size : 1em;
 }
 .text
 {
