@@ -2,6 +2,7 @@ body/*设置背景*/
 {
     background-image : url("ogas.png");
     background-size: 100%;
+    background-attachment: fixed;
 }
 @font-face 
 {
