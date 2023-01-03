@@ -1,18 +1,18 @@
 body/*设置背景*/
 {
-    background-image : url("ogas.png");
+    background-image : url("../ogas.png");
     background-size: 100%;
     background-attachment: fixed;
 }
 @font-face 
 {
    font-family: "SimSun";
-   src: url("fonts/simsun.fft");
+   src: url("../Fonts/simsun.fft");
 }
 @font-face
 {
     font-family: "KaiTi"
-    src: url("fonts/kaiti.fft");
+    src: url("../Fonts/kaiti.fft");
     font-style: italic;
 }
 .Dft_block/*默认块样式*/

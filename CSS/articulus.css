@@ -1,18 +1,18 @@
 body/*设置背景*/
 {
-    background-image : url("ogas.png");
+    background-image : url("../ogas.png");
     background-size: 100%;
     background-attachment: fixed;
 }
 @font-face 
 {
    font-family: "SimSun";
-   src: url("fonts/simsun.fft");
+   src: url("../Fonts/simsun.fft");
 }
 @font-face
 {
     font-family: "KaiTi"
-    src: url("fonts/kaiti.fft");
+    src: url("../Fonts/kaiti.fft");
     font-style: italic;
 }
 /*对齐方式*/
@@ -86,7 +86,7 @@ h6
     font-size: 1em;
     font-weight : bold;/*粗体*/
 }
-.innertitle/*行内标题*/
+.inlineTitle/*行内标题*/
 {
     text-align : center;
     line-height : 1.15;/*行高*/
